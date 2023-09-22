@@ -8,7 +8,7 @@
 
 rem Unreal Engine params
 ::set EnginePath_4=C:\Epic Games\UE Binary\UE_4.27
-set EnginePath=C:\UE_5.1
+set EnginePath=C:\UE_5.1.1
 set VersionSelector=C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealVersionSelector.exe
 rem Editor path (Note: path for UE4: "..\UE4Editor.exe")
 set EditorPath=%EnginePath%\Engine\Binaries\Win64\UnrealEditor.exe
@@ -17,7 +17,7 @@ set RunUATPath=%EnginePath%\Engine\Build\BatchFiles\RunUAT.bat
 rem Project params
 set ProjectRoot=%~dp0..
 :: Pure name of your project. Example: name of you project file is TPS.uproject, then ProjectPureName=TPS
-set ProjectPureName=<SnakeGame>
+set ProjectPureName=SnakeGame
 set ProjectName=%ProjectPureName%.uproject
 set ProjectPath=%ProjectRoot%\%ProjectName%
 set SourceCodePath=%ProjectRoot%\Source
